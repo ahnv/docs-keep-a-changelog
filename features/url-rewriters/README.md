@@ -48,4 +48,12 @@ An example URL that performs two chained transformations might look like this:
 https://ik.iamgekit.io/<your_imagekit_id>/cl_rewrite/h_300,w_300,c_crop,g_north/a_50/folder/image.jpg
 ```
 
-To attach a rewriter to one of your endpoints, please contact us at support@imagekit.io.
+To attach a rewriter to one of your endpoints, navigate to the "Advanced Settings" section of the URL endpoint and enable URL Rewriter setting
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-10 at 6.36.23 PM.png" alt=""><figcaption></figcaption></figure>
+
+Once the rewriter is enabled, configure the settings to bind the appropriate rewriter to the URL endpoint according. For more details refer to the related rewriter docs.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-10 at 6.36.32 PM.png" alt=""><figcaption></figcaption></figure>
+
+For any further help, please reach out to us at [support@imagekit.io](mailto:support@imagekit.io)

@@ -7,6 +7,11 @@ ImageKit can translate transformations written in Cloudinary's syntax to ImageKi
 This feature is currently in beta. Some transformations may not work as expected.
 {% endhint %}
 
+## Configuration
+
+After enabling Cloudinary rewriter, you have the option to enable "Keep cloudinary asset and delivery types". When turned on, the rewriter preserves specific Cloudinary URL paths such as `image/upload`, `video/upload`, and `raw/upload`.\
+
+
 ## Supported Transformations
 
 The following Cloudinary transformations are supported for translation:
